@@ -1,0 +1,218 @@
+/* ##### NAVBAR ##### */
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+   z-index: 2;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0e3f20;
+    font-family: Arial;      
+}
+
+.nav-buttons{
+    padding: 20px;
+    margin-right: 30px;
+}
+
+  
+  /* Links inside the navbar */
+.navbar a {
+    float: right;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 13px 13px;
+    text-decoration: none;
+    
+}
+  
+  /* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+    
+}
+  
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 13px 13px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+  /* Add a lighter green background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: #bccd04;
+}
+  
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0e3f20;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #bccd04;
+    color: black;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  /* PET Logo in the navbar */
+#logo1{
+    height: 70px;  
+     
+}
+
+#logo{
+    float: left;
+    margin-left: 20px;
+}
+  /* END OF NAVBAR */
+
+
+  /* #### CONTAINER #### */
+  /*
+.container{
+    height: 1000px;
+    width: 80%;
+    position: relative;
+    background-color: #cae2d2;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    z-index: 1;
+}*/
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 100px auto;
+    background: rgb(249,244,162);
+    background: linear-gradient(180deg, rgba(249,244,162,1) 35%, rgba(255,253,230,1) 100%);
+    z-index: 1;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    color: #0e3f20;
+    padding: 30px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner-text{
+    margin: auto;
+    font-size: xx-large;
+    text-align: center;
+    padding: 15px;
+}
+#logo2{
+    width:200px;
+}
+
+.content{
+    margin: 10px;
+    padding: 10px
+}
+
+.picture-kids{
+    width: 600px;
+}
+
+  @media (min-width: 600px) {
+    .banner-text{
+        font-size: medium;
+    }
+    #logo2{
+        width:220px;
+    }
+    .picture-kids{
+        width: 600px;
+    }
+  }
+  @media (min-width: 992px) {
+    .banner-text{
+        font-size: large;
+    }
+    #logo2{
+        width:340px;
+    }
+    .picture-kids{
+        width: 600px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .banner-text{
+        font-size: xx-large;
+    }
+    #logo2{
+        width:560px;
+    }
+    .picture-kids{
+        width: 1000px;
+    }
+  }
+
+
+
+
+
+  
+  /* END OF CONTAINER */
+
+
+  /* #### FOOTER #### */
+footer{
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    z-index: 2;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #0e3f20;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 38px;  
+}
+  /* END OF FOOTER */
